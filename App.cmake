@@ -36,6 +36,8 @@ target_sources(RNBOApp
   src/MainComponent.cpp
   src/CustomAudioEditor.cpp
   src/CustomAudioProcessor.cpp
+  CynthcartControlUI/Source/RootComponent.cpp
+
 
   ${RNBO_CLASS_FILE}
 
@@ -57,6 +59,7 @@ target_include_directories(RNBOApp
   ${RNBO_CPP_DIR}/adapters/juce/
   ${RNBO_CPP_DIR}/src/3rdparty/
   src
+  "CynthcartControlUI/Source"
 )
 
 target_compile_definitions(RNBOApp

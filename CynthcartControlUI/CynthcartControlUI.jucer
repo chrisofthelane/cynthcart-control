@@ -2,17 +2,13 @@
 
 <JUCERPROJECT id="bqd2sA" name="CynthcartControlUI" projectType="audioplug"
               useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
-              jucerFormatVersion="1">
+              jucerFormatVersion="1" companyName="christopherlane" companyWebsite="christopherlane.studio"
+              pluginCharacteristicsValue="pluginIsMidiEffectPlugin,pluginProducesMidiOut,pluginWantsMidiIn">
   <MAINGROUP id="lmtmk1" name="CynthcartControlUI">
-    <GROUP id="{0032EBB2-433C-CA0D-3119-F74E9D8B9EAC}" name="Source">
-      <FILE id="LS1ZHI" name="PluginProcessor.cpp" compile="1" resource="0"
-            file="Source/PluginProcessor.cpp"/>
-      <FILE id="Mvliga" name="PluginProcessor.h" compile="0" resource="0"
-            file="Source/PluginProcessor.h"/>
-      <FILE id="JKAqLM" name="PluginEditor.cpp" compile="1" resource="0"
-            file="Source/PluginEditor.cpp"/>
-      <FILE id="bLj6QN" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
-    </GROUP>
+    <GROUP id="{0032EBB2-433C-CA0D-3119-F74E9D8B9EAC}" name="Source"/>
+    <FILE id="ebdf5T" name="RootComponent.cpp" compile="1" resource="0"
+          file="Source/RootComponent.cpp"/>
+    <FILE id="rBOwub" name="RootComponent.h" compile="0" resource="0" file="Source/RootComponent.h"/>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
   <EXPORTFORMATS>
